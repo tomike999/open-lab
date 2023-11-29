@@ -172,8 +172,8 @@ h1 {
 
 .first-sections {
   max-width: 1320px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin: auto;
 
 }
@@ -257,54 +257,43 @@ h1 {
   padding: 0px 8px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap!important;
+  justify-content: flex-end;
+}
+
+.mp {
+  display: flex;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.vision-boxes div {
+  width: 233px;
+  height: 183px;
 }
 
 .vision-box-class {
   color: #5b94d7;
   background-color: rgba(221, 236, 251, 0.4);
-  display: flex;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  margin: 0.5rem;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .vision-box-students {
   color: #5cc19a;
   background-color: rgba(156, 238, 204, 0.4);
-  display: flex;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  margin: 0.5rem;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .vision-box-masters {
   color: #dbca68;
   background-color: rgba(238, 226, 156, 0.4);
-  display: flex;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  margin: 0.5rem;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .vision-box-schools {
   color: #b95e73;
   background-color: rgba(238, 156, 156, 0.4);
-  display: flex;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  margin: 0.5rem;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .vision-box-counter {
@@ -316,4 +305,80 @@ h1 {
 .vision-box-text {
   font-size: 17px;
   font-weight: 600;
+}
+
+.lab-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lab-inside {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  padding-right: 12px;
+}
+
+.lab-h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.lab-h2 span {
+  font-weight: 700;
+}
+
+.lab-boxes {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  margin-bottom: 0px;
+}
+
+.lab-box {
+  border-radius: 6px;
+  flex: 1 0 0%;
+  position: relative;
+  word-wrap: break-word;
+  padding: 1.5rem 3rem 3rem 3rem;
+}
+
+.lab-box div {
+  flex: 1 1 auto;
+}
+
+.lab-titles {
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.lab-titles span {
+  font-weight: 700;
+}
+
+.cards-text-lab {
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+  color: #566b8d;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+.lab-box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+  transition: ease-in-out.5s;
+}
+
+.lab-arrow {
+  bottom: 30px;
+  position: absolute;
+  vertical-align: middle;
 }
