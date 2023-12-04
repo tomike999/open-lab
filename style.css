@@ -53,10 +53,6 @@ section {
   line-height: 1.5;
 }
 
-
-
-
-
 :hover.discord {
   color: black;
 }
@@ -109,6 +105,7 @@ a:hover {
   font-size: 14px;
   margin-left: auto;
   display: inline-block;
+  cursor: pointer;
 }
 
 .hero-main {
@@ -381,4 +378,376 @@ h1 {
   bottom: 30px;
   position: absolute;
   vertical-align: middle;
+  cursor: pointer;
 }
+
+.container-school {
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.school-flex-wrap {
+  justify-content: center!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 12px;
+}
+
+.school-inside {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.school-card {
+  margin-right: 3rem;
+  margin-bottom: 0;
+  flex: 0 0 auto;
+  width: 41%;
+  position: relative;
+}
+
+.school-card img {
+  width: 100%;
+}
+
+.school-card-second {
+  margin-left: 3rem;
+  margin-bottom: 0;
+  flex: 0 0 auto;
+  width: 41%;
+  position: relative;
+}
+
+.school-card-second img {
+  width: 100%;
+}
+
+.school-card-inside {
+  padding-top: 1.5rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.school-text-pointer {
+  color: #566b8d;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.school-text-pointer img {
+  width: 24px;
+  height: 24px;
+}
+
+.school-title {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.2;
+  font-size: 1.45rem;
+}
+
+.school-h5 {
+  font-weight: 700;
+}
+
+.school-title a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #3597ff !important;
+}
+
+#school .pshape {
+  width: 213px;
+  right: 0;
+  bottom: -2095px;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.pshape img {
+  width: 436px;
+  max-width: unset;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.container-testimonial {
+  padding-top: 3rem;
+  background-color: #f3f9ff;
+  margin-top: 3rem;
+}
+
+
+
+.wd-testimonial {
+  width: 1140px;
+  margin: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.testimonial-inside {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+  margin-bottom: auto;
+}
+
+.testimonial-header {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.testimonial-header span {
+  font-weight: 700;
+}
+
+.testimonial-slider {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.testimonial-slider p {
+  color: #566b8d;
+  margin-bottom: 3rem;
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.quote {
+  top: -30px;
+  left: -10px;
+  display: inline;
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.testimonial-image {
+  display: block;
+  margin-left: 8.33333333%;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.testimonial-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testi-review {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.testi-review img {
+  width: auto;
+  max-width: 100%;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.testi-info h5 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #566b8d;
+  margin-bottom: 0; 
+}
+
+.testi-info p {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #566b8d;
+  margin-bottom: 0; 
+}
+
+.arrows {
+  margin-left: auto;
+  
+}
+
+.arrows img {
+  margin: auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.arrows img:hover {
+  background-color: #34568b;
+  border-radius: 8px;
+  transition: ease-in 0.5s;
+}
+
+.join-us {
+  padding-top: 5rem;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.join-us-inside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.join-us-header {
+  flex: 0 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.join-us-header h2 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.join-us-header h2 span {
+  font-weight: 300;
+}
+
+.join-us-cards {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 auto;
+  margin-bottom: 0px;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+}
+
+.card-project1 {
+  border-radius: 6px;
+  flex: 1 0 0%;
+  position: relative;
+  word-wrap: break-word;
+  padding: 1.5rem 3rem 3rem 3rem;
+  cursor: pointer;
+}
+
+.card-project1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+  transition: ease-in-out.5s;
+}
+
+.card-project1 h5 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card-project1 p {
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+  color: #566b8d;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.join-us-arrow {
+  bottom: 30px;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.slider-labmastri {
+  width: 1360px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding-top: 9rem;
+
+}
+
+.labmastri-card-text {
+  background-color: #A54FA2;
+  left: -18px;
+  padding: 50px 32px;
+  max-width: 585px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  min-width: 0;
+  border-radius: 15px;
+  position: absolute;
+  color: white;
+  bottom: 25%;
+}
+
+.labmastri-card-text p {
+  margin-top: 0;
+}
+
+.wannabe-header {
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.wannabe-header span {
+  font-weight: 700;
+}
+
+.labmastri-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-labmastri {
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.labmastri-banner {
+  height: 500px;
+  width: 85%;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.labmastri-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#labmastri .oshape {
+  width: 213px;
+  right: 0;
+  bottom: -3800px;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.oshape img {
+  width: 436px;
+  max-width: unset;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
