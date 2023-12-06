@@ -317,7 +317,6 @@ h1 {
 }
 
 .lab-inside {
-  flex: 0 0 auto;
   width: 33.33333333%;
   padding-right: 12px;
 }
@@ -334,7 +333,6 @@ h1 {
 .lab-boxes {
   display: flex;
   flex-flow: row wrap;
-  flex: 0 0 auto;
   width: 66.66666667%;
   margin-bottom: 0px;
 }
@@ -345,10 +343,6 @@ h1 {
   position: relative;
   word-wrap: break-word;
   padding: 1.5rem 3rem 3rem 3rem;
-}
-
-.lab-box div {
-  flex: 1 1 auto;
 }
 
 .lab-titles {
@@ -404,7 +398,6 @@ h1 {
 .school-card {
   margin-right: 3rem;
   margin-bottom: 0;
-  flex: 0 0 auto;
   width: 41%;
   position: relative;
 }
@@ -416,7 +409,6 @@ h1 {
 .school-card-second {
   margin-left: 3rem;
   margin-bottom: 0;
-  flex: 0 0 auto;
   width: 41%;
   position: relative;
 }
@@ -500,7 +492,6 @@ h1 {
 }
 
 .testimonial-inside {
-  flex: 0 0 auto;
   width: 41.66666667%;
   margin-bottom: auto;
 }
@@ -539,7 +530,6 @@ h1 {
 .testimonial-image {
   display: block;
   margin-left: 8.33333333%;
-  flex: 0 0 auto;
   width: 50%;
 }
 
@@ -603,7 +593,6 @@ h1 {
 }
 
 .join-us-header {
-  flex: 0 0 auto;
   width: 100%;
   text-align: center;
 }
@@ -620,7 +609,6 @@ h1 {
 .join-us-cards {
   display: flex;
   flex-flow: row wrap;
-  flex: 0 0 auto;
   margin-bottom: 0px;
   justify-content: center;
   z-index: 1;
