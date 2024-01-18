@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Form</title>
+  
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .form-wrap {
+      width: 340px; 
+      background: #045191; 
+      padding: 1.5rem 1.3rem; 
+      box-sizing: border-box; 
+      position: fixed;
+      left: 50%;
+      top: 10%;
+      border-radius: 20px;
+    } 
+
+    h1 {
+      text-align: center; 
+      color: #fff; 
+      font-weight: 600; 
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%; 
+      background: none; 
+      border: 2px solid #fff; 
+      border-radius: 8px; 
+      padding: 6px 15px; 
+      box-sizing: border-box;   
+      margin-bottom: 20px; 
+      font-size: 1.2rem; 
+      color: #fff;
+    }
+
+    input[type="button"] { 
+      background: #04cc40; 
+      border: 0; 
+      cursor: pointer; 
+      color: #ffffff;
+    }
+    input[type="button"]:hover { 
+      background: #016301; 
+      transition: .4s;
+      color: black;
+    }
+
+    ::placeholder {
+      color: #fff;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="form-wrap">
+    <h1>Registrácia</h1>
+    <input type="text" placeholder="Meno">
+    <input type="text" placeholder="Priezvisko">
+    <input type="email" placeholder="E-mail">
+    <input type="password" placeholder="Heslo">
+    <input type="password" placeholder="Zopakovať heslo">
+    <input type="button" value="Zaregistrovať">
+    <p>
+      Checkni ma <input type="checkbox" name="checkni" id="">
+    </p>
+    <input type="date">
+    <p>
+      Keď ma klikneš, už neodklikneš <input type="radio">
+    </p>
+    <input type="search" placeholder="Hľadať">
+    <input type="time">
+    <input type="range">
+  </div>
+</body>
+</html>
